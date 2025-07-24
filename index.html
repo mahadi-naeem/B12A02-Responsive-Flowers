@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Flowers</title>
-</head>
-<body>
-    <Header>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
+    <!-- icon added -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <Header class="bg-[rgb(245,248,255)]">
+        <!-- small device part -->
+        <nav class="md:hidden flex justify-around items-center pt-8">
+            <div>
+                <p>9.30</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full"></i>
+            </div>
+        </nav>
+
+        <nav class="max-w-[1140px] mx-auto flex md:justify-between items-center justify-around">
+
+            <img src="../assets/logo.png" alt="Flower">
+            <div class="flex gap-[48px]">
+
+                <div class="hidden md:flex gap-[48px]">
+                    <a class="font-bold" href="">home</a>
+                    <a class="text-[rgb(137,135,161)]" href="">shop</a>
+                    <a class="text-[rgb(137,135,161)]" href="">About Us</a>
+
+                </div>
+                <div>
+                    <i class="fas fa-shopping-cart text-xl text-blue-600"></i>
+
+                    Cart
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+
+        </div>
     </Header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
