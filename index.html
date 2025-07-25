@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <Header class="bg-[rgb(245,248,255)]">
+    <Header class="bg-[rgb(245,248,255)] md:pb-[120px] pb-[65px]">
         <!-- small device part -->
         <nav class="md:hidden flex justify-around items-center pt-8">
             <div>
@@ -40,7 +40,7 @@
                 <div>
                     <i class="fas fa-shopping-cart text-xl text-blue-600"></i>
 
-                   <span>Cart($56)</span>
+                    <span>Cart($56)</span>
                     </a>
                 </div>
             </div>
@@ -49,10 +49,12 @@
 
 
 
-        <div class="banner max-w-[1140px] mx-auto bg-[rgb(245,248,255)] flex flex-col-reverse md:flex md:flex-row md:mt-[120px] mt-[28px]">
+        <div
+            class="banner max-w-[1140px] mx-auto bg-[rgb(245,248,255)] flex flex-col-reverse md:flex md:flex-row md:mt-[120px] mt-[28px]">
             <div class="md:w-1/2 flex flex-col justify-center pr-10 p-5 md:pl-0">
                 <h1 class="font-bold text-[65px]">Always <span class="text-[rgb(233,91,10)]">Fresh Flowers</span></h1>
-                <p class="text-[rgb(137,135,161)] text-[22px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                <p class="text-[rgb(137,135,161)] text-[22px]">Indulge your senses with the beauty and fragrance of our
+                    fresh flower shop. From classic roses to
                     exotic
                     blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
@@ -62,61 +64,90 @@
         </div>
     </Header>
 
-    <main>
+    <main class="bg-[rgb(245,248,255)]">
         <div class="plant max-w-[1140px] mx-auto ">
-            <h2 class="text-[65px] font-bold text-center">Our Plants</h2>
-            <p class="max-w-1/2 text-center mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            <div class="plant-cards grid grid-cols-4">
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+            <h2 class="text-[50px] font-bold text-center"><span class="text-[rgb(233,91,10)] px-2">Our</span> Plants
+            </h2>
+            <p class="max-w-[888px] text-[22px] text-[rgb(137,135,161)] text-center mx-auto mt-[16px] mb-[49px] px-2">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+                blooms, we offer a wide variety of fresh.</p>
+
+            <div class="plant-cards grid grid-cols-2 md:grid-cols-4 gap-x-3 gap-y-5 p-2 md:pd-0">
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
+                <div class="plant-card w-full h-[full]">
+                    <img src="../assets/sample-flower-image.png" alt="" class="rounded-sm">
+                    <div class="p-2 text-center">
+                        <h6 class="text-[22px]">Lilly blossom</h6>
+                        <h5 class="text-[22px] font-bold">20 USD</h5>
+                    </div>
+                    <button class="bg-[#E95A08] w-full mx-auto p-3 text-[16px] text-[rgb(255,255,255)] font-semibold">Add to
+                        Cart</button>
                 </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
-                </div>
-                <div class="plant-card flex flex-col items-center">
-                    <img src="../assets/sample-flower-image.png" alt="">
-                    <h6>Lilly blossom</h6>
-                    <h5>20 USD</h5>
-                </div>
+               
+               
+
             </div>
         </div>
     </main>
